@@ -7,3 +7,7 @@ function countCharacters(string, char) {
     }
     return counted;
 }
+
+function countBeans(string) {
+    return countCharacters(string, "B")
+}
